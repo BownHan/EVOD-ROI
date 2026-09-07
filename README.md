@@ -86,4 +86,21 @@ copy.
   booktitle = {Proceedings of the 34th ACM International Conference on Multimedia (ACM MM 2026)},
   doi = {10.1145/3767308.3835043}
 }
+
+@inproceedings{yu2020bdd100k,
+  author = {Yu, Fisher and Chen, Haofeng and Wang, Xin and Xian, Wenqiang and Chen, Yingying and Liu, Fangchen and Madhavan, Vashisht and Darrell, Trevor},
+  title = {{BDD100K: A Diverse Driving Dataset for Heterogeneous Multitask Learning}},
+  booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages = {2636--2645},
+  year = {2020}
+}
+
+@inproceedings{lin2014microsoft,
+  author = {Lin, Tsung-Yi and Maire, Michael and Belongie, Serge and Hays, James and Perona, Pietro and Ramanan, Deva and Doll{\'a}r, Piotr and Zitnick, C. Lawrence},
+  title = {{Microsoft COCO: Common Objects in Context}},
+  booktitle = {European Conference on Computer Vision},
+  pages = {740--755},
+  year = {2014},
+  organization = {Springer}
+}
 ```
