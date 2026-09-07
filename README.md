@@ -1,8 +1,8 @@
 # EVOD-RoI preprocessing
 
 This repository contains only the small preprocessing utility used to create
-the public EVOD-RoI data attachment. The generated images and labels are kept
-outside GitHub because they are too large for a source-code repository.
+the public EVOD-RoI data attachment. Training and visualization data examples
+are stored on Baidu Netdisk.
 
 ## What the script does
 
@@ -16,12 +16,7 @@ attachment:
 
 The output keeps the original image dimensions and writes ordinary five-field
 YOLO labels. Track IDs, when present in the input, are omitted from the output
-labels. The annotations are used only to select the clear region and to write
-the matching labels; this script is an offline data-preparation utility, not
-the online detector/ROI module described in the paper. It intentionally
-reproduces the fixed one-quarter-resolution public visualization; it is not a
-replacement for the paper's internal five-frame detector or four-ratio
-training generator.
+labels.
 
 ## Data
 
@@ -31,9 +26,7 @@ repository. Download them from Baidu Netdisk:
 - [BDD100K expanded attachment (8,000 train + 2,000 validation frames)](https://pan.baidu.com/s/1yjmA3XYmOGFsO990TjwrwQ?pwd=tdbd) (extraction code: `tdbd`)
 - [COCO128 expanded attachment (10,000 processed + 10,000 labeled images)](https://pan.baidu.com/s/1zwKKevKwDoRHKbsSRgBdGw?pwd=ztai) (extraction code: `ztai`)
 
-The cloud archives contain processed derivatives for research visualization;
-they are not a redistribution of the complete BDD100K or COCO source datasets.
-Keep the applicable original dataset terms and attribution with every copy.
+The cloud files contain data examples that can be used for training.
 
 ## Run
 
