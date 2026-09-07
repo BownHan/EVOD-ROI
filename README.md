@@ -25,21 +25,15 @@ training generator.
 
 ## Data
 
-The expanded data attachment is distributed separately. Replace the two
-placeholders below with the final cloud URLs before publishing this README:
+The expanded data attachments are distributed separately from this code-only
+repository. Download them from Baidu Netdisk:
 
-- BDD100K processed attachment (8,000 train + 2,000 validation frames):
-  `<BDD100K_CLOUD_URL>`
-- Optional COCO visualization attachment (legacy demonstration only):
-  `<COCO_CLOUD_URL>`
+- [BDD100K expanded attachment (8,000 train + 2,000 validation frames)](https://pan.baidu.com/s/1yjmA3XYmOGFsO990TjwrwQ?pwd=tdbd) (extraction code: `tdbd`)
+- [COCO128 expanded attachment (10,000 processed + 10,000 labeled images)](https://pan.baidu.com/s/1zwKKevKwDoRHKbsSRgBdGw?pwd=ztai) (extraction code: `ztai`)
 
-The cloud archive must include the applicable source-dataset license and
-attribution. The images in the attachment are processed derivatives and should
-not be presented as a redistribution of the original BDD100K or COCO source
-dataset. The BDD source used during development was the vehicle-only mirror
-listed at <https://huggingface.co/datasets/vanthanh/bdd100kmot_vehicle>; it is
-not the complete official BDD100K tracking release. The COCO link is optional
-and is not required to reproduce the BDD100K fine-tuning attachment.
+The cloud archives contain processed derivatives for research visualization;
+they are not a redistribution of the complete BDD100K or COCO source datasets.
+Keep the applicable original dataset terms and attribution with every copy.
 
 ## Run
 
