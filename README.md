@@ -77,3 +77,13 @@ directory and writes `manifest.csv`, `summary.json`, `dataset.yaml`, and
 Please cite the EVOD-RoI paper and the original BDD100K/COCO dataset papers
 when using the attachment. Keep the original dataset terms with every cloud
 copy.
+
+```bibtex
+@inproceedings{1,
+  author = {Chi, Xuejian and Han, Bowen and Zou, Yifei and Zhang, Yong and Dressler, Falko and Yu, Dongxiao},
+  title = {{EVOD-RoI: Adaptive Edge-Assisted Video Object Detection System Based on RoI Transmission and Processing}},
+  year = {2026},
+  booktitle = {Proceedings of the 34th ACM International Conference on Multimedia (ACM MM 2026)},
+  doi = {10.1145/3767308.3835043}
+}
+```
